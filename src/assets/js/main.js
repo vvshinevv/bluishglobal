@@ -89,7 +89,7 @@ Website by Websolute
         if (scroll >= 400) {
             $("header").addClass("sticky-header");
         } else {
-            $("header").removeClass("sticky-header");
+            // $("header").removeClass("sticky-header");
         }
     }
 
