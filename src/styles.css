@@ -1173,7 +1173,7 @@ header {
   header.sticky-header {
     position: fixed;
     padding: 15px 0;
-    background: #202020;
+    background: white;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
   header .container {
@@ -1195,8 +1195,8 @@ header {
     margin-left: 60px; }
     header .menu li a {
       display: block;
-      font: 500 14px "Open Sans";
-      color: #ffffff;
+      font: 600 14px "Open Sans";
+      color: black;
       text-transform: uppercase; }
       header .menu li a.active, header .menu li a:hover {
         color: #3c88e7; }
@@ -1323,9 +1323,9 @@ Slider
         margin: 0 0;
         text-transform: uppercase; }
       .home-slider--wrapper__inner .container p {
-        font: 400 14px/24px "Open Sans";
-        margin: 0 auto 70px auto;
-        max-width: 600px;
+        font: 600 16px/24px "Open Sans";
+        margin: 0 auto 0 auto;
+        /* max-width: 600px; */
         color: #cbc6c0; }
   .home-slider--anchor {
     position: absolute;
