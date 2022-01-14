@@ -4,13 +4,13 @@
       <a href="index.html"><img src="assets/img/logo_bluish.png" alt="" /></a>
     </div>
     <div class="menu">
-      <ul>
-        <li><a href="" class="active">Home</a></li>
-        <li><a href="about">About</a></li>
-        <li><a href="product">Products</a></li>
-        <li><a href="trade">Trade</a></li>
-        <li><a href="commerce">Commerce</a></li>
-        <li><a href="contact">Contact</a></li>
+      <ul #menu>
+        <li><a href="" [ngClass]="{'active': path === '/'}">Home</a></li>
+        <li><a href="about" [ngClass]="{'active': path === '/about'}">About</a></li>
+        <li><a href="product" [ngClass]="{'active': path === '/product'}">Products</a></li>
+        <li><a href="trade" [ngClass]="{'active': path === '/trade'}">Trade</a></li>
+        <li><a href="commerce" [ngClass]="{'active': path === '/commerce'}">Commerce</a></li>
+        <li><a href="contact" [ngClass]="{'active': path === '/contact'}">Contact</a></li>
       </ul>
     </div>
     <div class="mobile-menu"><i class="fa fa-bars"></i></div>
